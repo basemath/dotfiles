@@ -1,0 +1,10 @@
+[user]
+  name = David Bogle
+  email = davidbogle.92@gmail.com
+
+[alias]
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+[core]
+  editor = vim
+  excludesfile = /Users/david/.gitignore_global
