@@ -4,6 +4,7 @@
 
 [alias]
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  hh = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --max-count=10
 
 [core]
   editor = vim
